@@ -6,17 +6,15 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="css/menu.css">
    <link rel="stylesheet" href="css/styles.css">
-   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-   <script src="script.js"></script>
    <title>CSS MenuMaker</title>
 </head>
 <body>
 
 <div id='cssmenu'>
-<ul>
-   <li><a href='#'>Home</a></li>
-   <li><a href='#'>Products</a></li>
-   <li><a href='#'>Company</a></li>
-   <li><a href='#'>Contact</a></li>
-</ul>
+  <ul>
+     <li><a href='#'>Home</a></li>
+     <li><a href='#'>Products</a></li>
+     <li><a href='#'>Company</a></li>
+     <li><a href='#'>Contact</a></li>
+  </ul>
 </div>
