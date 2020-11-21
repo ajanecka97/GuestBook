@@ -1,0 +1,15 @@
+.content{
+  position: relative;
+}
+
+.form{
+  width: 50%;
+  height: 75%;
+  top: 50%;
+  left: 50%;
+  margin: 30px;
+  background-color: #ffffff;
+  font:  Raleway, sans-serif;
+  border-style: solid;
+  border-color: #47c9af;
+}
