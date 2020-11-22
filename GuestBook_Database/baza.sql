@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS guestbook;
+CREATE DATABASE guestbook;
+USE guestbook;
+
+CREATE TABLE entry(
+	first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    message VARCHAR(200),
+    entry_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+    );
+
+
+
+#GUEST_B00K
