@@ -7,6 +7,6 @@ DEFINE('DB_NAME', 'guestbook');
 
 $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
 OR die('Could not estabilish connection with the database '
-. mysqli_connect_errot());
+. mysqli_connect_error());
 
 ?>
