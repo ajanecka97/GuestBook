@@ -14,13 +14,13 @@ html, body{
 
 .border{
   width: 50%;
-  height: 75%;
-  padding: 50px;
+  height: 50%;
+  padding: 30px;
   background-color: #ffffff;
   font:  Raleway, sans-serif;
   border-style: solid;
   border-color: #47c9af;
-  border-radius: 10%;
+  border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,10 +39,23 @@ html, body{
   justify-content: center;
   align-items: center;
 }
+.border3{
+  word-wrap: break-word;
+  max-width: 50%;
+  padding: 20px;
+  background-color: #ffffff;
+  font:  Raleway, sans-serif;
+  border-style: solid;
+  border-color: #47c9af;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
 
 .form{
   height: 100%;
   width: 100%;
+  font-size: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,12 +76,15 @@ html, body{
 }
 
 .input{
+  max-width: 70%;
   flex: 4 0 auto;
   border: 2px solid black;
   border-radius: 40px;
+  font-size: 30px;
 }
 
 .button{
+  margin-top: 20px;
   width: 150px;
   height: 50px;
   border: 2px solid black;
