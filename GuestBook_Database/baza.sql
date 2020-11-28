@@ -6,8 +6,13 @@ CREATE TABLE entry(
 	first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     email VARCHAR(50) NOT NULL,
-    message VARCHAR(200) NOT NULL,
+    message VARCHAR(300) NOT NULL,
     entry_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
     );
 
-#GUEST_B00K
+INSERT INTO entry 
+VALUES ("Jan", "Nowak", "nowak@example.com", "Byłem tu", NULL),
+ ("Jan", "Kowalski", "kowal@example.com", "Laboriosam reprehenderit dolorem itaque optio id aut. Cumque nemo eum sed voluptatibus totam. Quia aut non adipisci.", NULL),
+ ("Aleksander", "Jakiśtam", "alek@example.com", "Qui voluptatem totam voluptas molestiae ut eveniet rerum. Dicta dolorem commodi molestiae provident nam. Doloribus non molestiae eius. Rerum quidem suscipit accusantium illum laudantium aliquam eos rerum.", NULL),
+ ("Severus", "Snape", "snape@example.com", "10 punktów dla Gryfindoru", NULL),
+ ("Ktoś", "Jakiś", "kto@example.com", "Co tam?", NULL)
