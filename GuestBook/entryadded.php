@@ -11,6 +11,11 @@
 <body>
   <?php
   include 'includes/menu.php';
+  ?>
+
+  <div class='content'>
+
+  <?php
 
   if(isset($_POST['submit'])){
 
@@ -59,7 +64,7 @@
 
       if($affected_rows == 1){
         echo 'Entry added!';
-        header("Location: http://localhost:4000", TRUE, 301);
+        header("Location: http://localhost:4000/guestlist.php", TRUE, 301);
         exit();
       }
       else{
@@ -75,6 +80,6 @@
   }
 
   ?>
-
+</div>
 </body>
 </html>

@@ -26,6 +26,20 @@ html, body{
   align-items: center;
 }
 
+.border2{
+  width: 25%;
+  height: 25%;
+  padding: 50px;
+  background-color: #ffffff;
+  font:  Raleway, sans-serif;
+  border-style: solid;
+  border-color: #47c9af;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form{
   height: 100%;
   width: 100%;
@@ -63,4 +77,29 @@ html, body{
 
 .button:hover {
   border: 4px solid black;
+}
+
+.table{
+  width: 50%;
+  border: 2px solid #47c9af;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.header{
+  border-bottom: 1px solid #47c9af;
+  font-weight: bold;
+}
+
+.cell{
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.cell-non-right{
+  border-right: 1px solid #47c9af;
+}
+
+.cell-header{
+  border-bottom: 1px solid #47c9af;
 }
