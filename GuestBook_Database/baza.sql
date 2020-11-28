@@ -10,7 +10,7 @@ CREATE TABLE entry(
     entry_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
     );
 
-INSERT INTO entry 
+INSERT INTO entry
 VALUES ("Jan", "Nowak", "nowak@example.com", "Byłem tu", NULL),
  ("Jan", "Kowalski", "kowal@example.com", "Laboriosam reprehenderit dolorem itaque optio id aut. Cumque nemo eum sed voluptatibus totam. Quia aut non adipisci.", NULL),
  ("Aleksander", "Jakiśtam", "alek@example.com", "Qui voluptatem totam voluptas molestiae ut eveniet rerum. Dicta dolorem commodi molestiae provident nam. Doloribus non molestiae eius. Rerum quidem suscipit accusantium illum laudantium aliquam eos rerum.", NULL),

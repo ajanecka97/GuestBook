@@ -8,6 +8,7 @@ html, body{
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -29,12 +30,12 @@ html, body{
 .border2{
   width: 25%;
   height: 25%;
-  padding: 50px;
+  padding: 20px;
   background-color: #ffffff;
   font:  Raleway, sans-serif;
   border-style: solid;
   border-color: #47c9af;
-  border-radius: 10%;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

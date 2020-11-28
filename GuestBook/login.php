@@ -29,6 +29,13 @@ include 'includes/menu.php';
       <input class="button" type="submit" name="submit" value="Submit">
     </form>
   </div>
+  <?php
+  if($_GET["error"] === "empty_fields") echo 'Please fill in all the fields';
+  if($_GET["error"] === "invalid_credentials") echo 'Credentials are not valid!';
+  if($_GET["error"] === "session_not_started") echo 'Failed to start session';
+   ?>
 </div>
+
+
 </body>
 </html>

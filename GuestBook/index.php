@@ -37,6 +37,10 @@ include 'includes/menu.php';
       <input class="button" type="submit" name="submit" value="Submit">
     </form>
   </div>
+  <?php
+  if($_GET["error"] === "empty_fields") echo 'Please fill in all the fields';
+  if($_GET["error"] === "insertion_failed") echo 'Couldn\'t insert data into database';
+   ?>
 </div>
 </body>
 </html>

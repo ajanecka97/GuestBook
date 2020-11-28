@@ -63,17 +63,20 @@
       $affected_rows = mysqli_stmt_affected_rows($statement);
 
       if($affected_rows == 1){
-        echo 'Entry added!';
         header("Location: http://localhost:4000/guestlist.php", TRUE, 301);
         exit();
       }
       else{
-        echo 'Error occured<br />';
-        echo mysqli_error();
+        header("Location: http://localhost:4000?error=insertion_failed", TRUE, 301);
+        exit();
       }
 
       mysqli_stmt_close($statement);
       mysqli_close($dbc);
+    }
+     else{
+       header("Location: http://localhost:4000?error=empty_fields", TRUE, 301);
+       exit();
     }
 
 
