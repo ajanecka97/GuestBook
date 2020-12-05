@@ -17,7 +17,7 @@ include 'includes/menu.php';
 ?>
 <div class='content'>
   <div class='border'>
-    <form class='form' action="http://localhost:4000/entryadded.php", method="post">
+    <form class='form' action="entryadded.php", method="post">
       <div class="row">
         <label class="label" for="firstname"> First name: </label>
         <input class="input" type="text" id="firstname" name="firstname"><br>

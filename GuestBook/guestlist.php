@@ -46,7 +46,7 @@ if($response){
           <td class='cell cell-non-right'>$row[email] </td>";
           if($_SESSION['Username'] === 'admin'){
             echo "<td class='cell cell-non-right'> $row[message] </td>
-            <td class='cell'> <a href='http://localhost:4000/remove.php?id=$row[entry_id]'>Delete</a> </td>";
+            <td class='cell'> <a href='/remove.php?id=$row[entry_id]'>Delete</a> </td>";
           }
           else{
             echo "<td class='cell'> $row[message] </td>";

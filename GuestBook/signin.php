@@ -22,20 +22,20 @@ if(isset($_POST['submit'])){
       $started = session_start();
       $_SESSION['Username'] = "admin";
       if($started){
-        header("Location: http://localhost:4000/guestlist.php", TRUE, 301);
+        header("Location: /guestlist.php", TRUE, 301);
       }
       else{
-        header("Location: http://localhost:4000/login.php?error=session_not_started", TRUE, 301);
+        header("Location: /login.php?error=session_not_started", TRUE, 301);
       }
       exit();
     }
     else{
-      header("Location: http://localhost:4000/login.php?error=invalid_credentials", TRUE, 301);
+      header("Location: /login.php?error=invalid_credentials", TRUE, 301);
       exit();
     }
   }
   else{
-    header("Location: http://localhost:4000/login.php?error=empty_fields", TRUE, 301);
+    header("Location: /login.php?error=empty_fields", TRUE, 301);
     exit();
   }
   }

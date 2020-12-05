@@ -17,7 +17,7 @@ include 'includes/menu.php';
 ?>
 <div class='content'>
   <div class='border2'>
-    <form class='form' action="http://localhost:4000/signin.php", method="post">
+    <form class='form' action="/signin.php", method="post">
       <div class="row">
         <label class="label" for="username"> Username: </label>
         <input class="input" type="text" id="username" name="username"><br>
