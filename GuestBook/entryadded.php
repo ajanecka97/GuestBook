@@ -63,11 +63,11 @@
       $affected_rows = mysqli_stmt_affected_rows($statement);
 
       if($affected_rows == 1){
-        header("Location: /guestlist.php", TRUE, 301);
+        header("Location: guestlist.php", TRUE, 301);
         exit();
       }
       else{
-        header("Location: /index.php?error=insertion_failed", TRUE, 301);
+        header("Location: index.php?error=insertion_failed", TRUE, 301);
         exit();
       }
 
@@ -75,7 +75,7 @@
       mysqli_close($dbc);
     }
      else{
-       header("Location: /index.php?error=empty_fields", TRUE, 301);
+       header("Location: index.php?error=empty_fields", TRUE, 301);
        exit();
     }
 
