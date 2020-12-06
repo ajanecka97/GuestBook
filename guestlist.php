@@ -18,7 +18,7 @@ include 'includes/menu.php';
 <div class='content'>
 <?php
 
-require_once('../GuestBook_Database/sql_connect.php');
+require_once('GuestBook_Database/sql_connect.php');
 $query = "SELECT first_name, last_name, email, message, entry_id FROM entry";
 
 $response = @mysqli_query($dbc, $query);

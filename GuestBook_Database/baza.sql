@@ -10,13 +10,13 @@ CREATE TABLE entry(
     entry_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
     );
 
-CREATE USER 'GuestBook' @ 'localhost' IDENTIFIED BY 'GUEST_B00K';
+CREATE USER IF NOT EXISTS 'GuestBook'@'localhost' IDENTIFIED BY 'GUEST_B00K';
 GRANT ALL PRIVILEGES ON guestbook.entry TO 'newuser'@'localhost';
 FLUSH PRIVILEGES;
 
 INSERT INTO entry
-VALUES ("Jan", "Nowak", "nowak@example.com", "Byłem tu", NULL),
+VALUES ("Jan", "Nowak", "nowak@example.com", "Bylem tu", NULL),
  ("Jan", "Kowalski", "kowal@example.com", "Laboriosam reprehenderit dolorem itaque optio id aut. Cumque nemo eum sed voluptatibus totam. Quia aut non adipisci.", NULL),
- ("Aleksander", "Jakiśtam", "alek@example.com", "Qui voluptatem totam voluptas molestiae ut eveniet rerum. Dicta dolorem commodi molestiae provident nam. Doloribus non molestiae eius. Rerum quidem suscipit accusantium illum laudantium aliquam eos rerum.", NULL),
- ("Severus", "Snape", "snape@example.com", "10 punktów dla Gryfindoru", NULL),
- ("Ktoś", "Jakiś", "kto@example.com", "Co tam?", NULL)
+ ("Aleksander", "Jakistam", "alek@example.com", "Qui voluptatem totam voluptas molestiae ut eveniet rerum. Dicta dolorem commodi molestiae provident nam. Doloribus non molestiae eius. Rerum quidem suscipit accusantium illum laudantium aliquam eos rerum.", NULL),
+ ("Severus", "Snape", "snape@example.com", "10 punktow dla Gryfindoru", NULL),
+ ("Ktos", "Jakis", "kto@example.com", "Co tam?", NULL)
