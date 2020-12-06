@@ -47,7 +47,7 @@
     }
 
     if(empty($data_missing)){
-      require_once('../GuestBook_Database/sql_connect.php');
+      require_once('GuestBook_Database/sql_connect.php');
 
       $query = "INSERT INTO entry(first_name, last_name,
                 email, message, entry_id)

@@ -1,5 +1,5 @@
 <?php
-require('../GuestBook_Database/sql_connect.php');
+require('GuestBook_Database/sql_connect.php');
 
 $id = $_GET['id'];
 
